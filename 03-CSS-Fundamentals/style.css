@@ -86,3 +86,24 @@ li:nth-child(2) {
 article p:last-child {
   color: blue;
 }
+
+/* Styling Links (LVHA) */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orange;
+}
+
+a:active {
+  background-color: #000;
+  font-style: italic;
+}
