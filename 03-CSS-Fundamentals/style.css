@@ -1,11 +1,7 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
+body {
   color: #444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
 }
 
 h1,
@@ -123,4 +119,8 @@ a:active {
 
 footer p {
   color: green;
+}
+
+nav {
+  font-size: 18px;
 }
