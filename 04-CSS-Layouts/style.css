@@ -208,3 +208,15 @@ h1 {
 nav {
   float: right;
 }
+
+/* .clear {
+  clear: both;
+} */
+
+/* ClearFix Hack */
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
